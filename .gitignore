@@ -7,3 +7,8 @@
 
 # local Claude Code config
 .claude/
+
+# Xcode
+**/xcuserdata/
+**/*.xcuserstate
+**/DerivedData/

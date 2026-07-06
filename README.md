@@ -60,10 +60,17 @@ Copy that `mirage://…` link. (Re-print it any time with
 
 ### 2. Client (your Mac)
 
-Clone the repo on your Mac and run the client helper:
+**Option A — the app (recommended):** open the SwiftUI app, paste your link,
+click Connect. See [macos-app/](macos-app/).
 
 ```bash
 git clone https://github.com/henryswisvip/mirage.git
+open mirage/macos-app/MirageGUI/MirageGUI.xcodeproj   # then press ⌘R in Xcode
+```
+
+**Option B — the command-line helper:**
+
+```bash
 cd mirage
 ./client/connect-mac.sh 'mirage://<KEY>@YOUR_VM_IP:443'
 ```
