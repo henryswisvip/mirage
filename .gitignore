@@ -1,0 +1,9 @@
+# Local build artifacts (the cross-compiled binaries in bin/ ARE committed
+# so the VM/Mac can install without a Go toolchain).
+/mirage
+/bin/mirage-local
+*.log
+.DS_Store
+
+# local Claude Code config
+.claude/
